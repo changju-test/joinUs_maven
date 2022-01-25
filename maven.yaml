@@ -78,7 +78,7 @@ metadata:
   name: sonar-maven-properties
 data:
   sonar-project.properties: "# requiredd metdata\nsonar.projectKey=sonar-test\nsonar.login=admin\nsonar.projectVersion=0.1\nsonar.sourceEncoding=UTF-8\n
-  sonar.password=tmax@23\nsonar.sources=src/main/java\nsonar.tests=src/test\nsonar.language=java\nsonar.java.binaries=target/classes/**\nsonar.java.test.binaries=target/test-classes"
+  sonar.password=tmax@23\nsonar.sources=src/main/java\nsonar.tests=src/test\nsonar.language=java\nsonar.java.binaries=target/classes\nsonar.java.test.binaries=target/test-classes"
 ---
 apiVersion: tmax.io/v1
 kind: ClusterTemplate
